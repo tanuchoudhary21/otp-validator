@@ -1,0 +1,56 @@
+
+.main-div {
+  width: 100vw;
+  height: 100vh;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 30px;
+  color: #0f0f0f;
+
+  text-shadow: 0px 11px 10px rgba(138, 133, 117, 0.8);
+
+  margin-bottom: 50px;
+}
+
+.otp-field {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  font-size: 20px;
+  color: darkgray;
+}
+
+.otp-data {
+  color: gray;
+}
+
+.button-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-div button {
+  font-size: 16px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.button-div .clr-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.button-div .verify-btn {
+  background-color: #f44336;
+  color: white;
+}
